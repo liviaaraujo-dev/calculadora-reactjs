@@ -48,11 +48,6 @@ button:hover{
 
 }
 
-.gray:link{
-    background-color: #505050;
-    color: white;
-}
-
 .ligher-gray:focus{
     background-color: white;
 }
