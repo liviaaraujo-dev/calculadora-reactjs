@@ -70,9 +70,9 @@ export default function Calculator() {
           <button className="gray" onClick={inputNum} value={2}>2</button>
           <button className="gray" onClick={inputNum} value={3}>3</button>
           <button className="orange" onClick={operatorHandler} value="+">+</button>
-          <button className="gray" onClick={inputNum} value={0}>0</button>
+          <button className="gray number0" onClick={inputNum} value={0}>0</button>
           <button className="gray" onClick={inputNum} value={"."}>,</button>
-          <button className="gray" style={{ visibility: "hidden" }}>.</button>
+          {/* <button className="gray" style={{ visibility: "hidden" }}>.</button> */}
           <button className="orange" onClick={calculate}>=</button>
         </div>
     </div>
